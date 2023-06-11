@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Scraping Extension",
+    "version": "1.0",
+    "background": {
+    },
+    "permissions": ["activeTab", "downloads"],
+    "browser_action": {
+      "default_title": "Scrape Content",
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
